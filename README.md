@@ -4,7 +4,6 @@ A modern and visually immersive Tic-Tac-Toe web application built using HTML, CS
 This project features a futuristic neon UI, smooth animations, and interactive gameplay for an engaging user experience.
 
 🚀 Live Preview
-
 👉 https://akshaya0323.github.io/SCT_WD_03/
 
 📌 Project Overview
