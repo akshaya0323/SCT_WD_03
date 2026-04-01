@@ -13,90 +13,77 @@ This project is part of a Web Development Internship Task (SCT_WD_03).
 It demonstrates the implementation of a classic game with a modern UI/UX approach, focusing on animations, responsiveness, and design aesthetics.
 
 ✨ Features
+🎮 Game Features
 
-🎮 Game Functionality
+   ✔️ Two-player mode
+   ✔️ Turn-based gameplay
+   ✔️ Win & draw detection
+   ✔️ Restart functionality
 
-Two-player mode (Player X vs Player O)
-Turn-based gameplay
-Win and draw detection
-Restart game option
+🌌 UI / UX Features
 
-🌌 Advanced UI Design
+   ✔️ Neon glow effects
+   ✔️ Glassmorphism design
+   ✔️ Sci-fi fonts (Orbitron + Poppins) 
+   ✔️ Smooth transitions
 
-Glassmorphism container
-Neon glowing effects
-Sci-fi typography (Orbitron + Poppins)
-Smooth transitions and animations
+💫 Animations
 
-💫 Animations & Effects
+   ✔️ Floating particles background
+   ✔️ Hover shimmer effects
+   ✔️ Winning cell animation
+   ✔️ Modal popup animation
 
-Floating particle background
-Hover glow and shimmer effects
-Winning cell highlight animation
-Animated modal popup
+📊 Scoreboard
 
-📊 Scoreboard System
-
-Tracks Player X score
-Tracks Player O score
-Tracks draws
+   ✔️ Player X score
+   ✔️ Player O score
+   ✔️ Draw tracking
 
 📱 Responsive Design
 
-Works on desktop, tablet, and mobile
-Adaptive layout using CSS Grid
-
-
-🛠️ Technologies Used
-HTML5 – Structure of the game
-CSS3 – Styling, animations, and effects
-JavaScript – Game logic and interactivity
-Google Fonts – Orbitron & Poppins
-
-
-📂 Project Structure
+   ✔️ Mobile-friendly
+   ✔️ Adaptive grid layout
+   
+🛠️ Tech Stack
+    💻 HTML5
+    🎨 CSS3 (Animations + Effects)
+    ⚙️ JavaScript
+    🔤 Google Fonts
+    
+📂 Folder Structure
 📦 SCT_WD_03
  ┣ 📜 index.html
  ┣ 📜 style.css
  ┣ 📜 script.js
  ┗ 📜 README.md
-
  
-▶️ How to Run the Project
-Clone the repository
+▶️ Run Locally
 git clone https://github.com/akshaya0323/SCT_WD_03.git
-Open the project folder
-Run the application
-Open index.html in your browser
-OR
-Use VS Code Live Server
+cd SCT_WD_03
 
+Then open:
+index.html
 
-🧠 Game Logic
-The board is a 3×3 grid
-Players take turns marking cells
-JavaScript checks:
-Winning combinations
-Draw conditions
-When a player wins:
-Cells glow with animation
-Result modal is displayed
-
+🧠 How It Works
+   - 3×3 grid using CSS Grid
+   -Players take turns (X & O)
+   -JavaScript handles:
+      *Game state
+      *Win conditions
+      *Draw logic
+   -Winning cells animate + modal appears
 
 🎨 UI Highlights
-🌌 Space-themed background with grid overlay
-🔷 Neon blue and cyan glow effects
-💡 Interactive buttons with shimmer animation
-🧊 Frosted glass UI design
-🔥 Smooth hover and click transitions
-
-
+   🌌 Space-themed background
+   🔷 Neon glow + shadows
+   🧊 Frosted glass UI
+   💡 Interactive buttons
+   🔥 Smooth hover effects
+   
 🔮 Future Improvements
-🤖 Add AI opponent (Minimax algorithm)
-🔊 Add sound effects
-🌐 Online multiplayer support
-🎨 Theme switcher (dark / galaxy / neon)
+   🤖 AI opponent (Minimax)
+   🔊 Sound effects
+   🌐 Online multiplayer
+   🎨 Theme switcher
 
-
-🍴 Fork it
-💡 Improve and contribute
